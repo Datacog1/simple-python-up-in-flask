@@ -13,7 +13,7 @@ https://github.com/Datacog1/dockerize-simple-python-in-flask
 ## Installation & Start
 
 ```bash
-nerdctl build dockerize-simple-python-in-flask:v1
+nerdctl build -t dockerize-simple-python-in-flask:v1
 nerdctl run -p 5000:5000 dockerize-simple-python-in-flask:v1
 ```
 
